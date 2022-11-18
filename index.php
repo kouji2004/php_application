@@ -1,3 +1,9 @@
+<?php
+echo $_POST["username"];
+echo $_POST["commnt"];
+?>
+
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -25,7 +31,7 @@
         </div>
       </article>
     </section>
-    <form class="formWrapper">
+    <form class="formWrapper" method="POST">
       <div>
         <input type="submit" value="書き込む">
         <label for="">名前</label>
@@ -33,7 +39,7 @@
       </div>
 
       <div>
-        <textarea class="commentTextArea"></textarea>
+        <textarea class="commentTextArea" name="comment"></textarea>
       </div>
     </form>
   </div>

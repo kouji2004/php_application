@@ -1,7 +1,8 @@
 <?php
-echo $_POST["submitButton"];
-echo $_POST["username"];
-echo $_POST["comment"];
+if (!empty($_POST["submitButton"])) {
+  echo $_POST["username"];
+  echo $_POST["comment"];
+}
 ?>
 
 

@@ -10,10 +10,19 @@
 </head>
 
 <body>
-  <h1>掲示板アプリ</h1><br>
+  <h1>掲示板アプリ</h1>
+  <hr>
   <div class="boardWrapper">
-    <form class="fromWrapper">
-      
+    <form class="formWrapper">
+      <div>
+        <input type="submit" value="書き込む">
+        <label for="">名前</label>
+        <input type="text" name="username">
+      </div>
+
+      <div>
+        <textarea class="commentTextArea"></textarea>
+      </div>
     </form>
   </div>
 </body>

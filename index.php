@@ -1,6 +1,7 @@
 <?php
+echo $_POST["submitButton"];
 echo $_POST["username"];
-echo $_POST["commnt"];
+echo $_POST["comment"];
 ?>
 
 
@@ -33,7 +34,7 @@ echo $_POST["commnt"];
     </section>
     <form class="formWrapper" method="POST">
       <div>
-        <input type="submit" value="書き込む">
+        <input type="submit" value="書き込む" name="submitButton">
         <label for="">名前</label>
         <input type="text" name="username">
       </div>

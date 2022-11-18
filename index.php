@@ -21,6 +21,7 @@
             <p class="username">miura</p>
             <time>:2022/11/18</time>
           </div>
+          <p class="comment">手書きのコメント</p>
         </div>
       </article>
     </section>
